@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cw_4.Bohater">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Cw_4.Bohater.Rasa" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Bohater.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Cw_4.Bohater.Typ" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Bohater.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bohater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
