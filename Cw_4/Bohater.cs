@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cw_4
+namespace lekcja4
 {
     // deklaracja enum'a może byc wykonana poza klasą
     // jeżeli chcemy mieć do niego dostęp również w innym miejscu

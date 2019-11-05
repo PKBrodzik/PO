@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace lekcja2
 {
@@ -17,8 +14,6 @@ namespace lekcja2
             k.WyswietlProdukty();
             Student.PowiedzCos("Marek");
             Console.ReadKey();
-
-            Math.Pow(2, 2);
         }
     }
 }

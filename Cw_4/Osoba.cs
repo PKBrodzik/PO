@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cw_4
+namespace lekcja4
 {
     class Osoba
     {

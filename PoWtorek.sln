@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoWtorek", "PoWtorek\PoWtorek.csproj", "{5F7B6A16-39A3-4D69-9511-966B66D37095}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lekcja3", "PoWtorek\lekcja3.csproj", "{5F7B6A16-39A3-4D69-9511-966B66D37095}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cw_4", "Cw_4\Cw_4.csproj", "{7CA7ACB1-2439-4EE5-8C24-AE3CD6F56124}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lekcja4", "Cw_4\lekcja4.csproj", "{7CA7ACB1-2439-4EE5-8C24-AE3CD6F56124}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lekcja2", "lekcja2\lekcja2.csproj", "{8F46853A-8DD5-45E1-87B1-52AD41BFEFC3}"
 EndProject

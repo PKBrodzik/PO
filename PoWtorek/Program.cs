@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PoWtorek
+namespace lekcja3
 {
     class Program
     {
@@ -17,8 +17,10 @@ namespace PoWtorek
             konrad.Zarobki = 2500.00;
             Console.WriteLine("Pracownik: {0} {1}", konrad.imie, konrad.nazwisko);
 
+            // Początek przykładowego wykorzystanie mechanizmu refleksji, który pozwala na pobieranie
+            // metadanych o obiektach - np. nazwa klasy, jej pola, metody, modyfikatory dostępu itd.
             Type type = konrad.GetType();
-
+            // pobieramy listę wszystkich pól danego typu obiektu (ale tylko publiczne)
             foreach (var f in type.GetFields())
             {
                 Console.WriteLine(

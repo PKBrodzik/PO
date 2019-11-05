@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Cw_4
+namespace lekcja4
 {
     class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PoWtorek
+namespace lekcja3
 {
     public class Car
     {
@@ -24,7 +24,7 @@ namespace PoWtorek
             return new Car(marka, pojemnosc);
         }
 
-
+        // destruktor
         ~Car()
         {
             Console.WriteLine("Zwalniam pamięć");

@@ -17,7 +17,8 @@ namespace lekcja2
 
         public void SetImie(string _imie)
         {
-            // (Single Entry Point) można wykonać np. walidację
+            // tylko tutaj możemy zmienić wartość pola imie
+            // (single entry point) można wykonać np. walidację
             this.imie = _imie;
         }
 
@@ -31,7 +32,7 @@ namespace lekcja2
             Console.WriteLine("Nazywam się {0}", indeks);
         }
 
-        //źle, te same typy argumentów
+        //źle, te same typy argumentów, traktowane jak ta sama metoda co wyżej
         //public static void PowiedzCos(int numer, int indeks)
         //{
         //    Console.WriteLine("Nazywam się {0}", indeks);
