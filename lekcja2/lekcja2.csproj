@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7CA7ACB1-2439-4EE5-8C24-AE3CD6F56124}</ProjectGuid>
+    <ProjectGuid>{8F46853A-8DD5-45E1-87B1-52AD41BFEFC3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Cw_4</RootNamespace>
-    <AssemblyName>Cw_4</AssemblyName>
+    <RootNamespace>lekcja2</RootNamespace>
+    <AssemblyName>lekcja2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bohater.cs" />
-    <Compile Include="Druzyna.cs" />
-    <Compile Include="Osoba.cs" />
+    <Compile Include="Koszyk.cs" />
+    <Compile Include="Produkt.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RpgTest.cs" />
     <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="RPG.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
