@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7CA7ACB1-2439-4EE5-8C24-AE3CD6F56124}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Cw_4</RootNamespace>
-    <AssemblyName>Cw_4</AssemblyName>
+    <RootNamespace>lekcja4</RootNamespace>
+    <AssemblyName>lekcja4</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

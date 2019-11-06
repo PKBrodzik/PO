@@ -60,9 +60,9 @@ namespace lekcja4
             System.Threading.Thread.Sleep(1000);
             druzyna.ZadajCios(olga, 12);
             System.Threading.Thread.Sleep(1000);
-            druzyna.ZadajCios(olga, 8);
+            druzyna.ZadajCios(olga, 8);       
 
-
+            Console.ReadKey();
         }
     }
 }

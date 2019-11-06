@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5F7B6A16-39A3-4D69-9511-966B66D37095}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PoWtorek</RootNamespace>
-    <AssemblyName>PoWtorek</AssemblyName>
+    <RootNamespace>lekcja3</RootNamespace>
+    <AssemblyName>lekcja3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
