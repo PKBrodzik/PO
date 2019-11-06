@@ -18,6 +18,11 @@ To zbiór odpowiednich klas i interfejsów, które w dziedzinie projektu się po
 * Dostawa
 * StanMagazynowy (Magazyn) ...
 
+Ograniczenia:
+* minimum 6 obiektów domeny (klasy, interfejsy),
+* co najmniej jedna klasa abstrakcyjna,
+* wykorzystaj dziedziczenie, polimorfizm.
+
 
 **2. Scenariusz**
 
