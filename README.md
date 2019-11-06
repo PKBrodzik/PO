@@ -4,7 +4,7 @@ Publiczne repozytorium dla przedmiotu Programowanie Obiektowe
 # Linki do przydatnych materiałów
 [repozytorium z darmowymi materiałami](https://github.com/EbookFoundation)
 
-__PROJEKT__
+# PROJEKT
 
 Termin oddania projektu: 24.01.2019 23:59
 ## Wymagania projektu
