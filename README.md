@@ -6,7 +6,7 @@ Publiczne repozytorium dla przedmiotu Programowanie Obiektowe
 
 # PROJEKT
 
-Termin oddania projektu: 24.01.2019 23:59
+Termin oddania projektu: 24.01.2020 23:59
 ## Wymagania projektu
 
 **1. Model dziedziny**
