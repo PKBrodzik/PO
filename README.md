@@ -3,6 +3,7 @@ Publiczne repozytorium dla przedmiotu Programowanie Obiektowe
 
 # Linki do przydatnych materiałów
 [repozytorium z darmowymi materiałami](https://github.com/EbookFoundation)
+[o abstrakcji i metodach wirtualnych w C#](https://www.p-programowanie.pl/c-sharp/metody-wirtualne-abstrakcyjne-i-polimorfizm/)
 
 # PROJEKT
 
