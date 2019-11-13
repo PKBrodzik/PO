@@ -12,6 +12,7 @@ namespace lekcja4
             this.numerIndeksu = indeks;
         }
 
+        // można też napisać taki konstruktor
         public Student(Osoba osoba, int indeks) : base(osoba.imie, osoba.nazwisko, osoba.rokUrodzenia)
         {
             this.numerIndeksu = indeks;
@@ -27,11 +28,11 @@ namespace lekcja4
 
         public new void WypiszInfo()
         {
-            //base.WypiszInfo();
+            base.WypiszInfo();
             Console.WriteLine("\n numer indeksu: {0}", this.numerIndeksu);
         }
 
-       public new string ToString()
+        public new string ToString()
         {
             return "To jest Student";
         }

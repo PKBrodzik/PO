@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7CA7ACB1-2439-4EE5-8C24-AE3CD6F56124}</ProjectGuid>
+    <ProjectGuid>{B0CD9D6F-E361-4273-BD7D-30E340ECA3EE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>lekcja4</RootNamespace>
-    <AssemblyName>lekcja4</AssemblyName>
+    <RootNamespace>wejsciowka2b</RootNamespace>
+    <AssemblyName>wejsciowka2b</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="rpg\Bohater.cs" />
-    <Compile Include="Druzyna.cs" />
-    <Compile Include="IObservable.cs" />
-    <Compile Include="IObserver.cs" />
-    <Compile Include="Kostka.cs" />
-    <Compile Include="Osoba.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RpgTest.cs" />
-    <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="RPG.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

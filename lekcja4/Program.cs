@@ -29,11 +29,16 @@ namespace lekcja4
             Student student1 = new Student("Adam", "Maliniak", 1991, 12345678);
             student1.WypiszInfo();
 
+            // tutaj przykład relacji "jest": Student jest Osobą (brzmii logicznie, ale ważniejsze, że dziedziczy po klasie Osoba)
+            Osoba student2 = student1;
+            student2.WypiszInfo();
+
             // konrad na studenta
             //Student sKonrad = (Student)konrad; tak nie można
             // ale można napisać dodatkowy konstruktor
             konrad = new Student(konrad, 1234678);
             konrad.WypiszInfo();
+
 
             // test RPG
             RpgTest.RunTest();

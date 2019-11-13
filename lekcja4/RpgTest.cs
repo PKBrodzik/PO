@@ -8,10 +8,10 @@ namespace lekcja4
         public static void RunTest()
         {
             // 1. Tworzymy nowych bohaterów
-            Wojownik zdzich = new Wojownik("Zdzich", Rasa.Człowiek);
-            Zlodziej maniek = new Zlodziej("Maniek", Rasa.Niziołek);
-            Lucznik olga = new Lucznik("Olga", Rasa.Elf);
-            Wojownik bolo = new Wojownik("Bolo", Rasa.Krasnolud);
+            Wojownik zdzich = new Wojownik("Zdzich", Rasa.Człowiek, 80);
+            Zlodziej maniek = new Zlodziej("Maniek", Rasa.Niziołek, 60);
+            Lucznik olga = new Lucznik("Olga", Rasa.Elf, 70);
+            Wojownik bolo = new Wojownik("Bolo", Rasa.Krasnolud, 90);
 
             // teraz tworzymy "drużynę"
             List<Bohater> druzynaLista = new List<Bohater>();
@@ -60,7 +60,25 @@ namespace lekcja4
             System.Threading.Thread.Sleep(1000);
             druzyna.ZadajCios(olga, 12);
             System.Threading.Thread.Sleep(1000);
-            druzyna.ZadajCios(olga, 8);       
+            druzyna.ZadajCios(olga, 8);
+            druzyna.WypiszDruzyne(true);
+
+            // Zdzich otrzyma przedmiot
+            zdzich.ustawGlownaBron(new Bron("Kosimazaki", 6.54, 80, new ObrazeniaBroni(4, 2, 2), RodzajBroni.MieczJednoręczny));
+            Bohater wielkiKrasnolud = new Wojownik("Król Krasnoludów", Rasa.Krasnolud, 150);
+
+            // sprawdzimy jak się ta broń sprawuje
+            while(wielkiKrasnolud.CzyZyje)
+            {
+                zdzich.ZadajCios(zdzich.GlownaBron, wielkiKrasnolud);
+                wielkiKrasnolud.WypiszHp();
+                System.Threading.Thread.Sleep(2000);
+            }
+            
+
+            
+            
+            
 
             Console.ReadKey();
         }

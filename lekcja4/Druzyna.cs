@@ -36,7 +36,7 @@ namespace lekcja4
 
         private void UpdateDruzyna()
         {
-            //usuwa z drużyny wszystkich "martwych" bohaterów
+            //usuwa z drużyny wszystkich "martwych" bohaterów, czyli obiekty spełniające poniższy warunek
             druzyna.RemoveAll(item => item.CzyZyje == false);
         }
 
