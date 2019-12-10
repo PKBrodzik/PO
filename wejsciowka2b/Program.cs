@@ -37,7 +37,6 @@ namespace wejsciowka2b
         {
             Console.WriteLine($"Przygotowuję napój {nazwa}. Cena: {cena}");
         }
-
     }
 
     class KawaCzarna : Napoj

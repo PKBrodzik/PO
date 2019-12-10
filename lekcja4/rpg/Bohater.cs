@@ -13,7 +13,7 @@ namespace lekcja4
     {
         protected Profesja profesja;
         protected Rasa rasa;
-        public Ekwipunek ekwipunek; // kontener obiektów typu Przedmiot
+        public Plecak plecak; // kontener obiektów typu Przedmiot
         public Bron GlownaBron;
         protected string imie;
         protected double zywotnosc = 1.0;
@@ -21,12 +21,13 @@ namespace lekcja4
         protected int maxHp; // maksymalne punkty życia do jakich może uleczyć się postać, może być zmienione w trakcie gry
         protected int pancerz = 0; //może być zmodyfikowany przez założenie jakiegoś przedmiotu lub magicznie
         protected int pt; // punkty taktyki
+        protected int maxUdzwig;
 
         protected Bohater(string _imie, Rasa _rasa, int _hp)
         {
             this.imie = _imie;
             this.rasa = _rasa;
-            this.ekwipunek = new Ekwipunek();
+            this.plecak = new Plecak();
             this.hp = _hp;
         }
 
@@ -156,11 +157,13 @@ namespace lekcja4
         }
     }
 
-    public class Ekwipunek
+    // klasa do przechowywania przedmiotów, które postać niesie w "plecaku"
+    public class Plecak
     {
         List<Przedmiot> listaPrzedmiotow;
+        private double waga;
 
-        public Ekwipunek()
+        public Plecak()
         {
             this.listaPrzedmiotow = new List<Przedmiot>();
         }
@@ -169,19 +172,27 @@ namespace lekcja4
         {
             // tutaj należy wprowadzić jakąć metodę sprawdzania czy można jeszcze dodać ekwipunek np. max udźwig.
             this.listaPrzedmiotow.Add(_p);
+            this.waga += _p.waga;
         }
 
         public void UsunPrzedmiot(Przedmiot _p)
         {
             this.listaPrzedmiotow.Remove(_p);
+            this.waga -= _p.waga;
         }
 
-        public void WyswietlEkwipunek()
+        public void WyswietlPlecak()
         {
             foreach(Przedmiot p in this.listaPrzedmiotow)
             {
-
+                Console.WriteLine($"{p.nazwa}, {waga} kg");
             }
+            Console.WriteLine($"Łączna waga: {waga}");
+        }
+
+        public double GetWaga()
+        {
+            return this.waga;
         }
     }
 

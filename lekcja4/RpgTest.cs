@@ -70,7 +70,7 @@ namespace lekcja4
             // sprawdzimy jak się ta broń sprawuje
             while(wielkiKrasnolud.CzyZyje)
             {
-                zdzich.ZadajCios(zdzich.GlownaBron, wielkiKrasnolud);
+                zdzich.ZadajCios(wielkiKrasnolud);
                 wielkiKrasnolud.WypiszHp();
                 System.Threading.Thread.Sleep(2000);
             }
