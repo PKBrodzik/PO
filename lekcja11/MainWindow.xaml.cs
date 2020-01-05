@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Windows;
 using Microsoft.Win32;
 
-namespace lekcja10
+namespace lekcja11
 {
     public partial class MainWindow : Window
     {
@@ -14,7 +14,8 @@ namespace lekcja10
         {
             InitializeComponent();
             Osoby = new ObservableCollection<Osoba>();
-            //dataGrid.ItemsSource = Osoby;
+            // jeżeli nie dodamy DataContext to musimy ItemsSource przypisać w kodzie a nie xaml
+            //  dataGrid.ItemsSource = Osoby;
             DataContext = this;
             serializuj_button.IsEnabled = false;
         }
@@ -24,18 +25,18 @@ namespace lekcja10
             if (!FormValid())
                 return;
             this.Osoby.Add(new Osoba(imie_text.Text, nazwisko_text.Text, data_urodzenia.SelectedDate.Value.Date));
+            // po dodaniu przynajmniej jednej osoby możemy już wybrać przycisk "Serializuj"
             serializuj_button.IsEnabled = true;
-            // resetujemy pola
+            // resetujemy wartość pól formularza
             imie_text.Clear();
             nazwisko_text.Clear();
             data_urodzenia.SelectedDate = null;
             data_urodzenia.DisplayDate = DateTime.Today;
-            Console.WriteLine($"Osób na liście: {Osoby.Count}");
         }
 
         private bool FormValid()
         {
-            if(imie_text.Text != "" & nazwisko_text.Text.ToString() != "")
+            if(imie_text.Text != "" & nazwisko_text.Text.ToString() != "" & data_urodzenia.SelectedDate.ToString() != "")
             {
                 return true;
             }
@@ -44,6 +45,7 @@ namespace lekcja10
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            // można dodać dynamiczne określanie nazwy pliku zamiast zapisanej na sztywno
             OsobaSerializer.SerializeOsoby(this.Osoby, "osoby.json");
         }
 
@@ -57,8 +59,7 @@ namespace lekcja10
                 {
                     this.Osoby.Add(os);
                 }
-            }
-                
+            }     
         }
     }
 }

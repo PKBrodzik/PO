@@ -1,7 +1,7 @@
-﻿<Application x:Class="lekcja11.App"
+﻿<Application x:Class="WpfTest.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:lekcja11"
+             xmlns:local="clr-namespace:WpfTest"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

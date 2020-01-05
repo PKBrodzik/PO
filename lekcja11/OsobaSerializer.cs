@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using System.IO;
 
-namespace lekcja10
+namespace lekcja11
 {
     public static class OsobaSerializer
     {
         public static void SerializeOsoby(IEnumerable<Osoba> osoby, string filename)
         {
             string serialized = JsonConvert.SerializeObject(osoby);
-            Console.WriteLine("zserializowane osoby");
-            Console.WriteLine(serialized);
-            // inny sposób z zapisem do pliku
+            Console.WriteLine($"zserializowane osoby:{serialized}");
             File.WriteAllText(@filename, serialized);
         }
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace lekcja10
+namespace lekcja11
 {
     public class Osoba
     {

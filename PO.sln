@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListTest", "LinkedLis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wejsciowka3", "wejsciowka3\wejsciowka3.csproj", "{A6C0CCD5-A758-4BF6-838C-1ABB1834594F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lekcja11", "lekcja11\lekcja11.csproj", "{E1A1CDF8-BA98-4167-8931-D49C28EB4F90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lekcja12", "lekcja12\lekcja12.csproj", "{B29EA687-C9A3-461B-97EC-835D3A24B4F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{A6C0CCD5-A758-4BF6-838C-1ABB1834594F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6C0CCD5-A758-4BF6-838C-1ABB1834594F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6C0CCD5-A758-4BF6-838C-1ABB1834594F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A1CDF8-BA98-4167-8931-D49C28EB4F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A1CDF8-BA98-4167-8931-D49C28EB4F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A1CDF8-BA98-4167-8931-D49C28EB4F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A1CDF8-BA98-4167-8931-D49C28EB4F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29EA687-C9A3-461B-97EC-835D3A24B4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29EA687-C9A3-461B-97EC-835D3A24B4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29EA687-C9A3-461B-97EC-835D3A24B4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29EA687-C9A3-461B-97EC-835D3A24B4F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
