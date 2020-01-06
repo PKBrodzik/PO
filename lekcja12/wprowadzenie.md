@@ -3,7 +3,7 @@
 Dla omówienia wzorca dekorator wykorzystany zostanie ponownie przykład z automatem do kawy.
 Pomysłów na zaprojektowanie architektury aplikacji symulującej pracę takiego automatu bez wykorzystania wzorca dekorator jest wiele, ale przyjmijmy poniższe podejście jako bazowe.
 
-Automat posiada listę zdefiniowanych napojów (kawa, cappucino, czekolada) oraz szereg dodatków (mleko, cukier (może podwójny), itp.).
+Automat posiada listę zdefiniowanych napojów (kawa, cappuccino, czekolada) oraz szereg dodatków (mleko, cukier (może podwójny), itp.).
 
 Przyjmijmy, że naszą klasą bazową dla napojów będzie abstrakcyjna klasa bazowa Napój, która może wyglądać tak:
 
