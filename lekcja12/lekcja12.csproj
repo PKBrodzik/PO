@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bez dekoratora\Napoj.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="z dekoratorem\Czekolada.cs" />
+    <Compile Include="z dekoratorem\Kawa.cs" />
+    <Compile Include="z dekoratorem\Mleko.cs" />
+    <Compile Include="z dekoratorem\Napoj.cs" />
+    <Compile Include="z dekoratorem\NapojDekorator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="wprowadzenie.md" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

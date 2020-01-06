@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace lekcja12
 {
@@ -10,6 +6,24 @@ namespace lekcja12
     {
         static void Main(string[] args)
         {
+            // przykład bez wzorca dekorator
+            bez_dekoratora.Napoj kawa = new bez_dekoratora.KawaZMlekiem();
+            Console.WriteLine(kawa.Opis + " kosztuje: " + $"{kawa.Koszt}");
+            //Console.ReadKey();
+
+            // teraz przykład z wykorzystaniem wzorca dekorator
+            z_dekoratorem.Napoj nowaKawa = new z_dekoratorem.Kawa();
+            Console.WriteLine(nowaKawa.GetOpis() + " kosztuje: " + $"{nowaKawa.Koszt()}");
+
+            // dodajemy mleko
+            nowaKawa = new z_dekoratorem.Mleko(nowaKawa);
+            Console.WriteLine(nowaKawa.GetOpis() + " kosztuje: " + $"{nowaKawa.Koszt()}");
+
+            // i czekoladę
+            nowaKawa = new z_dekoratorem.Czekolada(nowaKawa);
+            Console.WriteLine(nowaKawa.GetOpis() + " kosztuje: " + $"{nowaKawa.Koszt()}");
+
+            Console.ReadKey();
         }
     }
 }
