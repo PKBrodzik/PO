@@ -55,6 +55,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Diagram wzorca budowniczy.cd" />
+    <None Include="introduction.md" />
     <None Include="wprowadzenie.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
